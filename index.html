@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello</title>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h1 {
+      font-size: 7vw;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    /* Light theme */
+    @media (prefers-color-scheme: light) 
+    {
+      body {
+        background-color: #ffeede;
+        color: #171717;
+      }
+    }
+
+    /* Dark theme */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #171717;
+        color: #ffeede;
+      }
+    }
+  </style>
 </head>
 <body>
-    <p> Hello..?</p>
+  <h1>Hello</h1>
 </body>
 </html>
