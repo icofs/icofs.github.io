@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: block;
+    min-width: 1024px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+h1, h3, h2, p, li, i, h4 {
+    color: #000000;
+    text-decoration: none;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#info {
+    --footer-background: #f5f5f7;
+    --footer-border-color: #d2d2d7;
+    --footer-text-color: #6e6e73;
+    --footer-link-color: #424245;
+    --footer-pipe-color: #86868b;
+    --footer-directory-title-color: #1d1d1f;
+    --footer-directory-title-color-hover: #000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    min-width: 1024px;
+    overflow: hidden;
+    z-index: 1;
+    direction: ltr;
+    text-align: center;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+    position: relative;
+}

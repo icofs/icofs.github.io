@@ -1,44 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <link rel="stylesheet" href="_source/css/materialize.min.css">
+
+  <link rel="stylesheet" href="_source/css/mainpage.css" />
+
+  <script src="_source/js/particles.js"></script>
+
   <title>Hello</title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    h1 {
-      font-size: 7vw;
-      font-weight: 700;
-      margin: 0;
-    }
-
-    /* Light theme */
-    @media (prefers-color-scheme: light) 
-    {
-      body {
-        background-color: #ffeede;
-        color: #171717;
-      }
-    }
-
-    /* Dark theme */
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #171717;
-        color: #ffeede;
-      }
-    }
-  </style>
 </head>
+
 <body>
-  <h1>Hello</h1>
+  <div class="nick">
+    <span>Hello</span>
+  </div>
+
+  <div id="particles-js"></div>
+  <script src="_source/js/particles-app.js"></script>
 </body>
+
 </html>

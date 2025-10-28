@@ -1,0 +1,12 @@
+.nav-list {
+    display: flex;
+}
+.map-list a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.map-list a:hover {
+    background-color: gray;
+}
